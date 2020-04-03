@@ -1,0 +1,7 @@
+1、文件操作I/O函数在stdio.h头文件中,主要函数如下：
+	FILE *fopen(char *filename,char *type);					/*打开指定路径的文件*/
+	int fclose(FILE *fp);									/*关闭文件*/
+	int fread(void *buf,int size,int count,FILE *fp);		/*读文件函数*/
+	int fwrite(void *buf,int size,int count,FILE *fp);		/*写文件函数*/
+
+	#define _CRT_SECURE_NO_WARNINGS
